@@ -1,0 +1,24 @@
+.form-block{
+    max-width: 485px;
+    margin: auto;
+    &__title{
+        margin-bottom: 40px;
+    }
+    &__subtitle{
+        margin-bottom: 25px;
+    }
+}
+
+.form{
+    &__row{
+        display: flex;
+    }
+    &__input{
+        width: 75%;
+    }
+    &__button{
+        width: 25%;
+    }
+}
+
+

@@ -1,0 +1,24 @@
+.header{
+    position: fixed;
+    &__logo{
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.header-nav{
+    &__list{
+        list-style-type: none;
+    }
+    &__item{
+        display: inline-block;
+    }
+    &__link{
+        display: block;
+        &.--modifier{
+            border: 1px solid white;
+        }
+    }
+}
+
+
